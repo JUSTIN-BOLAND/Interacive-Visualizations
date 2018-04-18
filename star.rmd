@@ -1,0 +1,28 @@
+#Starbcuks locations dataset Exploratory Data Analysis 
+
+---
+title: "Startbucks Demo"
+output: html_document
+---
+  
+```{r include=FALSE}
+#Load the required libraries 
+library(plotly)
+library(ggplot2)
+library(DataExplorer)
+library(markdown)
+```
+```{r}
+#Load the required dataset
+data <- read.csv("directory.csv")
+```
+
+```{r}
+#See head of dataset
+head(data)
+```
+
+```{r}
+#See structure of dataset
+str(data)
+```
